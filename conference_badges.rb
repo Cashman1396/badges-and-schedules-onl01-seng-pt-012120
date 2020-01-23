@@ -22,7 +22,7 @@ def printer(attendees)
     puts badge
 end
 
-assign_rooms(attendees).map do |assignment|
+def assign_rooms(attendees).map do |assignment|
     puts assignment
   end
 end
